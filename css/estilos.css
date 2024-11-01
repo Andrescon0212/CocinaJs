@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evitar scroll horizontal si algún elemento se sale del borde */
+}
+.container-fluid {
+    padding: 0 !important; /* Asegura que no haya padding en el contenedor */
+    margin: 0;
+}
+
+/* Estilo básico para el hero */
+.hero {
+    background-image: url('../img/chef_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw; 
+}
+
+
+.nav-item {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+    white-space: nowrap; /* Asegura que no haya salto de línea */
+}
+
+.nav-item {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* Centrar el texto */
+.hero .text-center {
+    max-width: 600px; /* Ajusta el ancho máximo del texto si es necesario */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+.card-body{
+    background-color:rgb(241, 131, 131);
+}
+/* Asegurar que las imágenes ocupen toda la altura de sus contenedores */
+img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Fondo rosado para el primer div */
+.color-uno {
+    background-color: rgb(241, 131, 131); /* Rosado claro */
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Fondo verde para el segundo div */
+.color-dos {
+    background-color: #bbbd4d; /* Verde claro */
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos de texto */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+
+.card-text {
+    text-align: justify;
+}
+
+
+.container-cards{
+    background-color: #d4cfcf;
+}
+
+.precio {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #277027;
+    font-weight: bold; /* Ajusta el peso de la fuente */
+    color: #333; /* Cambia el color si es necesario */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+}
+
+.btn{
+    background-color: rgb(241, 131, 131);
+}
+
