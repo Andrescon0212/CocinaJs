@@ -7,6 +7,54 @@ body, html {
     padding: 0 !important; /* Asegura que no haya padding en el contenedor */
     margin: 0;
 }
+.navbar-brand img {
+    max-height: 130px;
+    margin-left: 120px;
+}
+
+/* Hover para cambiar solo el color del texto en el navbar */
+.navbar-nav .nav-link:hover {
+    color: rgb(241, 131, 131) !important; /* Cambia solo el color del texto */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+
+
+/* Fondo rosado con texto blanco */
+.bg-primary {
+    background-color: rgb(241, 131, 131)!important; /* Fondo rosado */
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.bg-primary  p{
+    color: #ffffff 
+}
+
+.bg-primary  h2{
+    color: #ffffff 
+}
+
+/* Fondo verde con texto blanco */
+.bg-secondary {
+    background-color: #C7C47D !important; /* Fondo verde */
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.bg-secondary p {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.bg-secondary h2 {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+/* Bordes blancos para las líneas de separación */
+hr.border {
+    border-color: #ffffff !important;
+}
+
+
+
 
 /* Estilo básico para el hero */
 .hero {
@@ -30,6 +78,8 @@ body, html {
     white-space: nowrap; /* Asegura que no haya salto de línea */
 }
 
+
+
 .nav-item {
     list-style: none;
     cursor: pointer;
@@ -41,14 +91,29 @@ body, html {
     padding: 20px; /* Espacio alrededor del contenido */
 }
 
-.card-body{
-    background-color:rgb(241, 131, 131);
-}
+
 /* Asegurar que las imágenes ocupen toda la altura de sus contenedores */
 img {
     object-fit: cover;
     height: 100%;
 }
+
+/* Cambiar el color de fondo azul a rosado */
+.bg-primary {
+    background-color: rgb(241, 131, 131)!important; /* Un tono de rosado */
+}
+
+/* Cambiar el color de los botones a rosado */
+.btn-primary {
+    background-color: #ff66b2;
+    border-color: #ff66b2;
+}
+
+.btn-primary:hover {
+    background-color: rgb(241, 131, 131); /* Un rosado más oscuro para el hover */
+    border-color: 
+}
+
 
 /* Fondo rosado para el primer div */
 .color-uno {
@@ -105,3 +170,26 @@ p {
     background-color: rgb(241, 131, 131);
 }
 
+.color-card{
+    background-color:  rgb(241, 131, 131);
+}
+
+.nav-link{
+
+    margin-left: 60px;
+    color: black;
+    margin-top: -16px;
+    align-items: center;
+
+
+}
+
+.nav-link h4{
+
+    margin-left: 60px;
+    color: black;
+    margin-top: -5px;
+    
+
+
+}
